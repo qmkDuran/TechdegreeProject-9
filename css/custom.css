@@ -1,0 +1,58 @@
+.name {
+    font-size: 53px;
+}
+.contact {
+    font-size: 12px;
+}
+.flexfordrop {
+    justify-content: flex-end;    
+}
+.menubar{
+    background-color:rgb(14, 14, 14, 1);
+    color: white;
+    margin-top: 1em;
+}
+.menubartwo {
+    display: none;
+}
+.contact {
+    background-color: white;
+}
+.circle {
+    height: 125px;
+    width: 125px;
+    background-color: #202020;
+    border-radius: 50%;
+    position: absolute;   
+    left: 3.5em;
+    bottom: 490px;
+  }
+@media screen and (min-width: 530px){
+    .name {
+        font-size: 100px;
+    }
+    .contact {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .menubar {
+        display: none;
+    }
+    .menubartwo {
+        display: inline-block;
+        margin-top: 1em;
+    }
+    .circle {
+        display: none;
+    }
+    .circletwo {
+        height: 300px;
+        width: 300px;
+        background-color: #202020;
+        border-radius: 50%;
+        position: absolute;
+        right: 24em; 
+        bottom: 13em;  
+    }
+}
